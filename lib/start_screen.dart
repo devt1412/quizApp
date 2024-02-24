@@ -12,14 +12,14 @@ class StartScreen extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Image.asset(
-            'assets/images/quiz-logo.png',
+            'assets/images/forest.png',
             width: 200,
             color: const Color.fromARGB(150, 255, 255, 255),
           ),
           // Opacity(
           //   opacity: 0.5,
           //   child: Image.asset(
-          //     'assets/images/quiz-logo.png',
+          //     'assets/images/forest.png',
           //     width: 200,
           //   ),
           // ),
@@ -27,7 +27,7 @@ class StartScreen extends StatelessWidget {
             height: 80,
           ),
           Text(
-            'Learn Flutter the fun way!',
+            'Lets get S grade!',
             style: GoogleFonts.lato(
               color: const Color.fromARGB(255, 212, 178, 228),
               fontSize: 24,
